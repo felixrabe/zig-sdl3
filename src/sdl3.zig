@@ -633,7 +633,7 @@ const std = @import("std");
 
 /// Return values for optional main callbacks.
 ///
-/// Returning Success or Failure from `SDL_AppInit(), `SDL_AppEvent()`,
+/// Returning Success or Failure from `SDL_AppInit()`, `SDL_AppEvent()`,
 /// or `SDL_AppIterate()` will terminate the program and report success/failure to the operating system.
 /// What that means is platform-dependent.
 /// On Unix, for example, on success, the process error code will be zero, and on failure it will be 1.
